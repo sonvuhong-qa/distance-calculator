@@ -1,0 +1,5 @@
+{
+  "name": "Distance Calculator Tool",
+  "description": "A tool to calculate distances between addresses using Google Maps, optimized for Google Colab and local use.",
+  "requestFramePermissions": []
+}
