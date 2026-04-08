@@ -25,7 +25,26 @@ Automated tool to calculate driving distances between addresses using Google Map
 - **Internet connection**
 - ChromeDriver (automatically managed - no manual installation needed)
 
-## Installation
+## Google Colab Usage (Recommended)
+
+Running the tool in Google Colab is the easiest way to get started without local setup.
+
+1. Open a new notebook at [colab.research.google.com](https://colab.research.google.com).
+2. Run the following in a code cell to setup the environment:
+   ```bash
+   !git clone https://github.com/sonvuhong-qa/distance-calculator/
+   %cd distance-calculator
+   !chmod +x colab_setup.sh
+   !./colab_setup.sh
+   ```
+3. Run the calculator:
+   ```bash
+   !./.venv/bin/python distance_calculator_tool.py --csv "Employees_input_demo.csv" --company-address "Your Company Address"
+   ```
+
+*Note: The script automatically detects Colab and runs in headless mode.*
+
+## Installation (Local)
 
 ```bash
 # Clone the repository
