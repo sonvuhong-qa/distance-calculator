@@ -29,7 +29,7 @@ Automated tool to calculate driving distances between addresses using Google Map
 
 ```bash
 # Clone the repository
-git clone https://github.com/dathc0601/distance-calculator.git
+git clone https://github.com/sonvuhong-qa/distance-calculator.git
 cd distance-calculator
 
 # Create virtual environment

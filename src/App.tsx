@@ -53,7 +53,7 @@ const CodeBlock = ({ code, language }: { code: string, language: string }) => {
 };
 
 export default function App() {
-  const colabSetupCode = `!git clone https://github.com/dathc0601/distance-calculator/
+  const colabSetupCode = `!git clone https://github.com/sonvuhong-qa/distance-calculator/
 %cd distance-calculator
 !chmod +x colab_setup.sh
 !./colab_setup.sh`;
@@ -79,7 +79,7 @@ export default function App() {
           </nav>
           <div className="flex items-center gap-4">
             <a 
-              href="https://github.com/dathc0601/distance-calculator" 
+              href="https://github.com/sonvuhong-qa/distance-calculator" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 text-slate-500 hover:text-slate-900 transition-colors"
@@ -283,7 +283,7 @@ export default function App() {
             © 2026 Distance Calculator Tool. Built for Google AI Studio.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-slate-400 hover:text-slate-900 transition-colors"><Github size={20} /></a>
+            <a href="https://github.com/sonvuhong-qa/distance-calculator" className="text-slate-400 hover:text-slate-900 transition-colors"><Github size={20} /></a>
           </div>
         </div>
       </footer>
